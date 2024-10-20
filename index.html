@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Woman's Day</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Đặt lại các giá trị mặc định của trình duyệt */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff1493;
+            font-size: 2.5rem;
+            /* Kích thước chữ lớn */
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            /* Kích thước chữ vừa phải */
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        /* Đảm bảo giao diện hoạt động tốt trên màn hình nhỏ hơn */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            button {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎉 Chúc mừng 🎉</h1>
+    <h1> Ngày Phụ nữ Việt Nam 20/10 </h1>
+
+    <a href="flower.html"><button id="flower-button">Bấm để nhận quà</button></a>
+
+
+</body>
+
+</html>
